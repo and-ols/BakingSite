@@ -22,16 +22,44 @@
    </header>
 
    <nav>
-
+      <a class="active" id="home" href="#">Home</a>
+      <a id="aboutMe" href="about.html">About Me</a>
+      <a id="contact" href="contact.html">Contact</a>
+      <a id="order" href="order.html">Order</a>
    </nav>
 
-   <main>
+   <main id="homeMain">
+
+      <section id="shortDescription">
+         <p>
+            My name is Aylin, and I'm a 25-year-old baker with a passion for sharing the joy of Argentinian flavors. 
+            Ever since I was a little girl, I've been in the kitchen with my abuela, learning the secrets of her 
+            delicious recipes. Now, I want to bring those same traditions and tastes to your table.
+         </p>
+
+         <p>
+            Here you'll find a taste of Argentina in every bite. We use only the freshest
+            ingredients to create our mouthwatering empanadas, fluffy breads, and of course, the most irresistible 
+            homemade dulce de leche. Whether you're looking for a quick and delicious lunch or a sweet treat to share 
+            with friends, we have something to satisfy your cravings.
+            So, browse our menu, place your order, and get ready to experience a taste of Argentina!
+         </p>
+      </section>
+
+      <!-- This data is stored in data/products.json and is handled in the scripts/products.js -->
+      <section id="productGallery"></section>
 
    </main>
 
    <footer>
-
+      <img class="profilePic" src="images/logo.webp" alt="Company logo" loading="lazy">
+      <section class="footer-content">
+         <p>&copy; Aylin Murayama</p>
+         <p>Contact info: (916)-867-5309</p>
+         <p>E-mail: atestphp@gmail.com</p>
+      </section>
    </footer>
    
 </body>
+
 </html>
