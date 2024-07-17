@@ -61,6 +61,7 @@ a:link, a:visited {
 /* Styling for each footer */
 footer {
    display: grid;
+   grid-template-columns: 1fr 1fr;
    align-items: center;
    background-color: var(--blue);
 }
@@ -75,6 +76,16 @@ footer img {
 /* Covers the content of the footer (contact info) */
 .footer-content {
    grid-column: 2/3;
+}
+
+.social {
+   grid-column: 3/3;
+   padding-right: .5rem;
+}
+
+.social img {
+   width: 50px;
+   height: auto;
 }
 
 /* ---------- MOBILE VIEW ---------- */

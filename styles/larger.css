@@ -27,6 +27,10 @@
       display: none; 
    }
 
+   .social {
+      padding-right: 1rem;
+   }
+
   /* ---------- HOME PAGE ---------- */
 
   /* The short description at the top of the page */
