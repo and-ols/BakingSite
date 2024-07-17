@@ -122,6 +122,10 @@ footer img {
    display: flex;
 }
 
+.active::before {
+   content: "☀ ";
+}
+
 /* ---------- ALL FORMS ---------- */
 form fieldset{
    margin: 2rem 0;
