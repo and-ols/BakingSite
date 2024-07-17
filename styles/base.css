@@ -1,0 +1,281 @@
+:root {
+   --blue: #6cace4;
+   --yellow: #e9bf34;
+   --burnt-orange: #a852188a;
+   --white: #ffffff;
+}
+
+
+
+/* Styling for the total of the visible page */
+body {
+   background-color: var(--white);
+}
+
+/* All headers on each page */
+header {
+   display: grid;
+   grid-template-columns: 200px 1fr 100px;
+   text-align: center;
+   align-items: center;
+   background-color: var(--blue);
+}
+/* Logo in the header on each page */
+header img {
+   justify-self: center;
+   width: 200px;
+   height: auto;
+}
+
+/* All of the navigation bars */
+.navigation {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   background-color: var(--yellow);
+   padding: .5rem;
+   font-size: x-large;
+   margin-bottom: 1rem;
+   border: #a85218 double 3px;
+}
+/* Styling for each individual item of the navigation */
+.navigation a {
+   flex: 1 1 100%;
+   padding: .5rem;
+   justify-content: center;
+
+}
+/* Navigation menu items hover */
+.navigation a:hover {
+   background-color: var(--burnt-orange);
+   font-weight: 700;
+}
+
+/* All links */
+a:link, a:visited {
+   color:black;
+   text-decoration: none;
+}
+
+/* Styling for each footer */
+footer {
+   display: grid;
+   align-items: center;
+   background-color: var(--blue);
+}
+/* Styling for the logo in the footer */
+footer img {
+   grid-column: 1/2;
+   padding-left: .5rem;
+   justify-self: left;
+   width: 150px;
+   height: auto;
+}
+/* Covers the content of the footer (contact info) */
+.footer-content {
+   grid-column: 2/3;
+}
+
+/* ---------- MOBILE VIEW ---------- */
+
+/* The icon to open the nav menu */
+.menu::before {
+   content: "⏬";
+}
+
+/* The navigational menu itself*/
+.menu {
+   font-size: 1.5rem;
+   border: none;
+   border-radius: 1rem;
+   background-color: var(--white);
+   cursor: pointer;
+   padding: 1rem;
+   margin-left: .5rem;
+
+}
+/* The icon after the menu is open */
+.menu.open::before {
+   content: "⏫";
+   border-radius: 1rem;
+}
+
+/* Navigation menu */
+.navigation {
+   display: flex;
+   flex-direction: column;
+   list-style: none;
+   background-color: var(--yellow);
+   display: none;
+}
+
+/* Navigation menu list items */
+.navigation a {
+   display: block;
+   padding: .5rem;
+   text-align: center;
+}
+
+/* Opens the navigation menu */
+.open {
+   display: flex;
+}
+
+/* ---------- ALL FORMS ---------- */
+form fieldset{
+   margin: 2rem 0;
+   border: 10px solid var(--blue);
+   border-radius: 10px;
+   padding: 0.5rem 2%;
+   text-align: left;
+   padding: .5rem 2.5rem .5rem .5rem;
+}
+
+form legend{
+   background-color: var(--blue);
+   margin: 0 1rem;
+   padding: 0 .5rem;
+   font-weight: bold;
+}
+
+form input{
+   margin-bottom: 1rem;
+}
+
+form label.top input, textarea, #order-section input{
+   display: block;
+   padding-top: 1rem;
+   font-size: 1rem;
+   border: 2px solid #b4b4b4;
+   border-radius: 4px;
+   padding: .75rem;
+   color: black;
+   width: 100%;
+   background-color: #b4b4b4;
+}
+
+form label.top input:required {
+   border-left: red solid 6px;
+   border-right: red solid 6px;
+}
+
+form label.top input:required:valid {
+   border-left: green solid 6px;
+   border-right: green solid 6px;
+}
+
+#contact-submit, #order-submit {
+   padding: 1rem;
+   border: none;
+   background-color: var(--yellow);
+   border-radius: .5rem;
+   font-size: larger;
+   align-self: center;
+   margin-bottom: 1rem;
+}
+button:hover {
+   cursor: pointer;
+   box-shadow: #a85218 1rem;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+/* ---------- HOME PAGE ---------- */
+header h1 {
+   padding: .5rem;
+}
+
+#shortDescription {
+   padding: 0rem 1rem;
+   line-height: 1.5rem;
+}
+
+.product img {
+   max-height: 300px;
+   width: auto;
+}
+
+.product {
+   flex: 1; 
+   margin-bottom: 20px;
+   text-align: center; 
+   padding: 0rem 1rem;
+   border: 5px double var(--yellow);
+   max-width: 600px;
+   margin: .5rem;
+   /* background-color: var(--blue); */
+}
+
+#announcement {
+   display: flex;
+   justify-content: center;
+   border: 8px groove var(--yellow);
+   background-color: var(--blue);
+   padding: .5rem 1rem;
+   font-weight: 700;
+   font-size: larger;
+}
+
+.close-button {
+   background-color: var(--accent3);
+   cursor: pointer;
+   font-size: x-large;
+   margin-left: 2rem;
+   border: none;
+}
+
+/* ---------- ABOUT ME PAGE ---------- */
+#about-title {
+   text-align: center;
+}
+
+.about-card {
+   padding: 0rem 1.5rem;
+   text-align: center;
+   margin-bottom: 3rem;
+   line-height: 25px;
+}
+
+.about-cards img{
+   border-radius: 1rem;
+}
+
+/* ---------- CONTACT PAGE ---------- */
+#contact-title {
+   text-align: center;
+   font-size: 30px;
+}
+
+#contact-message {
+   padding-left: 1rem;
+   line-height: 1.5rem;
+}
+
+#contact-form {
+   display: flex;
+   flex-direction: column;
+   margin: 1rem;
+}
+
+#contact-img, #order-img {
+   display: none;
+}
+
+/* -------- ORDER PAGE ----------- */
+
+.order-menu {
+   line-height: 1.5rem;
+}
+
+#order-section{
+   display: flex;
+   flex-direction: column;
+}
+
+#order-main {
+   margin: 0rem 1rem;
+}
+
+
+
