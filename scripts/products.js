@@ -31,7 +31,7 @@ function displayRandomProducts() {
     const product = products[index];
 
     const productElement = document.createElement("div");
-    productElement.classList.add("product"); // Add a CSS class for styling
+    productElement.classList.add("product");
 
     const productTitle = document.createElement("h3");
     productTitle.textContent = product.name;
