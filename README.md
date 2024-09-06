@@ -14,7 +14,7 @@ The abot me page conists two breife stories of how she got to where she is now. 
 ![image](https://github.com/user-attachments/assets/85de5b24-92c7-48a1-937b-de6e8de72feb)
 
 ### Contact
-The contact page is meant to be a page where anyone can contact her about anything they may want. It uses an HTML form that is linked to an email using a third party service called Formspree. I choes this because it allowed for a more safe, and smeamless trasition of information. It also allowed for the addition of captia to avoid having to deal with bots. The form was designed to be simple, easy to read, and clear to the user what is requiered and what is not. JavaScriptn is used on the "Contact" button to submit the form, which will send all ifromation to the clients email, in a clear and simple way to read.
+The contact page is meant to be a page where anyone can contact her about anything they may want. It uses an HTML form that is linked to an email using a third party service called [Formspree](https://formspree.io/). I choes this because it allowed for a more safe, and smeamless trasition of information. It also allowed for the addition of captia to avoid having to deal with bots. The form was designed to be simple, easy to read, and clear to the user what is requiered and what is not. JavaScriptn is used on the "Contact" button to submit the form, which will send all ifromation to the clients email, in a clear and simple way to read.
 
 ![image](https://github.com/user-attachments/assets/081a8d1b-df45-4955-8e43-555d6b492dce)
 
@@ -27,9 +27,22 @@ The second portion consits of an order contents, that has a lits of everything t
 
 ![image](https://github.com/user-attachments/assets/c703e40d-4cc0-44a7-84a8-266a36554857)
 
-# Header, Navifation and Footer
+# Header, Navigation and Footer
 ### Header
-The header grafic was created using free tools in canva and was used to match the colors of the page. The colors of the page were created using [coolers] (https://coolors.co/).
+![image](https://github.com/user-attachments/assets/0f61ad86-ec66-44ec-ae2f-0ebac4cafac9)
+
+The header grafic was created using free tools in [Canva](https://www.canva.com/) and was used to match the colors of the page. The colors of the page were created using [Coolers](https://coolors.co/). All coolors were checked using [Contrast Ratio](https://www.siegemedia.com/contrast-ratio?ref=frontendchecklist) a free tool that tells you what level your colors pass with whenm it comes to crtrast and accessabilty.
+
+### Navigation
+![image](https://github.com/user-attachments/assets/ae024c61-829a-4119-8450-497f01d273c2)
+![image](https://github.com/user-attachments/assets/96c51f55-51d3-4917-b651-4339237ce7e6)
+
+The navigation uses JavaScript to add an emogy to each tab you are on to allow the user an easy way to see what page they are on. It also utilizes a menu button when in mobile view, that is a more user frienbdly model in that view. It uses JavaScript and a button to allow the user to open and close it.
+
+### Footer
+![image](https://github.com/user-attachments/assets/f6cf16b9-0d75-4e56-b91f-667fd6f78b48)
+
+The footer consits of contact inforamtion, and a link to her Facebook in the form of an icon.
 
 
 
