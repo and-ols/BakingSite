@@ -16,6 +16,15 @@ The contact page is meant to be a page where anyone can contact her about anythi
 
 ![image](https://github.com/user-attachments/assets/081a8d1b-df45-4955-8e43-555d6b492dce)
 
+### Order
+The order page has two differnt parts. The first protion displayes the menue in a simple and easy to read format. The client wanted to add a bassic, but neat image of a oder sign.
+
+![image](https://github.com/user-attachments/assets/5d5a6c14-0952-4910-9bce-ea78af383d92)
+
+The second portion consits of an order contents, that has a lits of everything the user can oder. It uses a number input to allow the user to input a number or use the up and down arrows to change the number. The information portion is simmilar to the contact, where it will take the users needed inforation to reach out to them for payment. The client only dealt in cash, so no pay portal was needed. The date wanted uses JavaScript to not allow the user to select a date that is one week before the date that is cutrent. So for example, if the user orders on the first, the soonest they can request the order is seventh. This gave the client ample time to get what they need. The submission is sent the same as the contact page.
+
+![image](https://github.com/user-attachments/assets/c703e40d-4cc0-44a7-84a8-266a36554857)
+
 
 
 # Develolmenmt Enviornment
